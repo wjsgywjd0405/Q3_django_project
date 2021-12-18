@@ -6,7 +6,7 @@ from django.urls import reverse
 from django.views import generic
 
 # Create your views here.
-### Generic VIew (class-based views)
+### Generic View (class-based views)
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
     context_object_name = 'latest_question_list'
